@@ -8,6 +8,12 @@ Capture decisions, deliberate non-decisions, alternatives, assumptions, rational
 
 Do not turn journaling into work for the user.
 
+## Shared context
+
+Decision and outcome records use the provenance, time, confidence and lifecycle semantics in the [Shared Context and Evidence Contract](../../architecture/context-evidence-contract.md).
+
+A decision is evidence about a choice. Do not automatically convert one decision into a durable claim about the user's personality, knowledge or future behavior.
+
 ## Principles
 
 - Append rather than rewrite history.
@@ -18,18 +24,18 @@ Do not turn journaling into work for the user.
 - Ask only when missing information materially affects usefulness.
 - Outcome maintenance should be headless whenever possible.
 
-## Suggested record
+## Suggested decision payload
+
+The shared evidence envelope should contain a decision payload such as:
 
 ```json
 {
-  "observed_at": "",
   "context": "",
   "decision": "",
   "type": "decision | judgment | non-decision",
   "alternatives": [],
   "rationale": [],
   "assumptions": [],
-  "confidence": null,
   "outcome": null
 }
 ```
