@@ -28,6 +28,10 @@ Executive Skillbox is a collection of interoperable skills for people who want A
 
 This is an early public build. Skills should work independently but become more useful together.
 
+## Architecture
+
+The skills share a common [Context and Evidence Contract](architecture/context-evidence-contract.md) for provenance, time, confidence, lifecycle, conflicts and portability. Storage is intentionally implementation-independent.
+
 ## Licensing
 
 Except where otherwise noted, the prompts, skills and documentation are licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
