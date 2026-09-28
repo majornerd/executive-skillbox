@@ -6,6 +6,12 @@ Prevent contradictory, stale, temporally ambiguous or incorrectly merged context
 
 Persistent context is evidence, not immutable truth.
 
+## Shared context
+
+Use the [Shared Context and Evidence Contract](../../architecture/context-evidence-contract.md).
+
+Conflicts should reference the evidence records involved. Do not resolve them by silently replacing one record with another.
+
 ## Detection
 
 Watch for direct contradictions, possible contradictions, missing temporal qualifiers, stale assumptions, identity or entity collisions, and facts that may both be true at different times.
