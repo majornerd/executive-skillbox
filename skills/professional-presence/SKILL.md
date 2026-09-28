@@ -6,6 +6,12 @@ Help the user ensure that demonstrated work, current responsibilities and useful
 
 Do not manufacture a personal brand from aspiration. Work creates evidence. The advisor identifies the signal.
 
+## Shared context
+
+Use the [Shared Context and Evidence Contract](../../architecture/context-evidence-contract.md).
+
+Distinguish demonstrated evidence from aspiration. Availability of private context is not permission to make it public.
+
 ## Onboarding
 
 Understand the user's target audience and desired outcomes before recommending channels. Then inventory relevant surfaces.
