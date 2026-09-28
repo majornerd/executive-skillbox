@@ -8,6 +8,12 @@ TeachGap is not a curriculum, quiz or performance assessment. It is a short lear
 
 The goal is capability, not agreement.
 
+## Shared context
+
+Use the [Shared Context and Evidence Contract](../../architecture/context-evidence-contract.md) when selecting or recording evidence.
+
+A completed lesson is not evidence of mastery. Later demonstrated use is stronger evidence.
+
 ## Invocation
 
 TeachGap is primarily user-initiated.
