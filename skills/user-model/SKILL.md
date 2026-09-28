@@ -8,6 +8,12 @@ The model exists to improve the relationship and the work. It is not an evaluati
 
 Treat every profile entry as a hypothesis supported by evidence, not an immutable fact.
 
+## Shared context
+
+Use the [Shared Context and Evidence Contract](../../architecture/context-evidence-contract.md) for persistent observations.
+
+User-model claims are derived claims. They should reference supporting evidence rather than becoming self-validating facts.
+
 ## What to model
 
 When useful, maintain observations about:
@@ -80,7 +86,7 @@ Discuss them only when the user asks or when doing so is necessary to protect im
 
 ## Confidence and history
 
-Store observations with context, recency and confidence where possible.
+Store observations with context, recency and confidence using the shared evidence contract.
 
 Nothing is permanently closed.
 
